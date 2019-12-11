@@ -1,0 +1,21 @@
+{
+  "name": "mattyrob/subscribe2",
+  "type": "wordpress-plugin",
+  "license": "GPLv3",
+  "description": "Notifies an email list when new entries are posted.",
+  "homepage": "https://subscribe2.wordpress.com/",
+  "authors": [
+    {
+      "name": "Subscribe2",
+      "homepage": "https://subscribe2.wordpress.com/"
+    }
+  ],
+  "keywords": [
+    "wordpress",
+		"voting"
+  ],
+  "require": {
+    "php": ">=5.6",
+    "composer/installers": "~1.0"
+  }
+}
