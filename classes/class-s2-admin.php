@@ -349,10 +349,6 @@ class S2_Admin extends S2_Core {
 	 * Create meta box on write pages
 	 */
 	public function s2_meta_init( $post_type, $post ) {
-		if ( true === $this->block_editor ) {
-			return;
-		}
-
 		if ( 'yes' === $this->subscribe2_options['pages'] ) {
 			$s2_post_types = array( 'page', 'post' );
 		} else {
