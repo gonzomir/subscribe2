@@ -1,5 +1,32 @@
 <?php
 class S2_Frontend extends S2_Core {
+
+	var $please_log_in;
+
+	var $confirmation_sent;
+
+	var $already_subscribed;
+
+	var $not_subscribed;
+
+	var $not_an_email;
+
+	var $no_such_email;
+
+	var $barred_domain;
+
+	var $error;
+
+	var $no_such_emai;
+
+	var $added;
+
+	var $deleted;
+
+	var $subscribe;
+
+	var $unsubscribe;
+
 	/**
 	 * Load all our strings
 	 */

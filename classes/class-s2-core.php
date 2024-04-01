@@ -1,5 +1,22 @@
 <?php
 class S2_Core {
+
+	var $script_debug;
+
+	var $word_wrap;
+
+	var $excerpt_length;
+
+	var $site_switching;
+
+	var $clean_interval;
+
+	var $lockout;
+
+	var $wp_release;
+
+
+
 	// variables and constructor are declared at the end
 	/**
 	 * Load translations

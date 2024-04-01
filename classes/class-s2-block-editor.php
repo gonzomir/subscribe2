@@ -1,5 +1,8 @@
 <?php
 class S2_Block_Editor {
+
+	var $script_debug;
+
 	/**
 	 * Constructor
 	 */
